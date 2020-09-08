@@ -23,7 +23,7 @@ body {
     width:500px;
     box-shadow: 0px 0px 17px rgba(0,0,0,0.75);
     border-radius: 5px;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .box__navigation{
@@ -125,4 +125,9 @@ body {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 500px){
+    .box {
+        height: 100vh
+    }
+}
 
